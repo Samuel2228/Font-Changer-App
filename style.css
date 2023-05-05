@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    /* display: flex; */
+    /* height: 10vh;
+    width: 70%; */
+    /* flex-direction: column; */
+    /* flex-direction: flex-end; */
+    /* border: 1px solid blue; */
+    margin: 60px auto;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 500px;
+    margin: 100px auto;
+}
+
+/* label 1 */
+
+
+ .label1 .containerr {
+    outline: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    /* background-color: blue; */
+ }
+
+ .myText {
+    z-index: -1;
+ }
+
+button, .buttons {
+    width: 100%;
+    /* display: flex; */
+    gap: 1rem;
+    padding: 10px;
+    /* align-items: center; */
+    text-align: center;
+}
+
+input[type=number] {
+    width: 95%;
+    padding: 10px;
+}
+
+
+.down-flow {
+
+    right: 270px;
+    bottom: 330px;
+    height: 100%;
+    position: absolute;
+}
+
+
+/* label 2 */
+
+
+.label2 .label-two {
+    outline: 1px solid;
+    padding: 10px;
+    border-radius: 6px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+
+
+.label2 {
+    width: 400px;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+    gap: 1rem;
+}
+
